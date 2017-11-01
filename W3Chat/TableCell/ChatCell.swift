@@ -10,8 +10,20 @@ import UIKit
 
 class ChatCell: UITableViewCell {
 
+    @IBOutlet weak var IMG: UIImageView!
+    @IBOutlet weak var NameText: UILabel!
+    @IBOutlet weak var EmailText: UILabel!
+    @IBOutlet weak var OnlineLbl: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        self.IMG.layer.cornerRadius = IMG.frame.height / 2.0
+        self.IMG.clipsToBounds = true
+        //self.IMG.layer.borderWidth = 1
+        //self.IMG.layer.borderColor = UIColor.white.cgColor
+        
         // Initialization code
     }
 

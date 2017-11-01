@@ -1,0 +1,61 @@
+PODS:
+  - Alamofire (4.5.1)
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - FacebookCore (0.2.0):
+    - Bolts (~> 1.8)
+    - FBSDKCoreKit (~> 4.15)
+  - FacebookLogin (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKLoginKit (~> 4.15)
+  - FacebookShare (0.2.0):
+    - Bolts (~> 1.8)
+    - FacebookCore (~> 0.2)
+    - FBSDKCoreKit (~> 4.15)
+    - FBSDKShareKit (~> 4.15)
+  - FBSDKCoreKit (4.27.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.27.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.27.0):
+    - FBSDKCoreKit
+  - MBProgressHUD (1.0.0)
+  - SDWebImage (4.1.0):
+    - SDWebImage/Core (= 4.1.0)
+  - SDWebImage/Core (4.1.0)
+  - SwiftyJSON (3.1.4)
+  - TPKeyboardAvoiding (1.3.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - MBProgressHUD
+  - SDWebImage
+  - SwiftyJSON
+  - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  FacebookCore: 2cb3f0fbff218e9d3119cec84bae983b232412de
+  FacebookLogin: c9d606504735780a9e3002465a615512e0a691a5
+  FacebookShare: 8e9ee8ea06505e6a1d3d719b0cc63e840fb8aaeb
+  FBSDKCoreKit: ebc6c5f5b3f0e72396041050e2266781a38ac587
+  FBSDKLoginKit: 887be4b7452e1c5a3cc4485ce152529965a0c41e
+  FBSDKShareKit: 4f83956d4ca2960730fe7588a168eb8d535c06dc
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TPKeyboardAvoiding: 0d6af20e95e2850f4c621841225b59ec7d8dd852
+
+PODFILE CHECKSUM: f7dc1385520b71b75aa6fa4b7f7e69ec418303b2
+
+COCOAPODS: 1.4.0.beta.1
